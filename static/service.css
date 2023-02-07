@@ -1,0 +1,37 @@
+#serviceSection{
+    padding:30px;
+    background: center/cover no-repeat url("/static/img/brandi-redd-aJTiW00qqtI-unsplash.jpg");
+}
+
+#serviceSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung';
+    text-align: center;
+    padding: 25px;
+
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.service img{
+    height: 500px;
+    border-radius: 30px;
+}
+.sertext{
+    /* text-align: center; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sertext h3{
+    font-size: 55px;
+    text-align: center;
+    padding: 15px;
+    color: rgb(120, 0, 248);
+}
+.sertext p{
+    font-size:20px;
+    padding: 0 25px;
+    color: rgb(167, 19, 76);
+}

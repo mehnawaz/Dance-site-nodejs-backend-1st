@@ -1,0 +1,76 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content  
+    section#introSection 
+                div The Royal Dance Academy
+                div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/p1.png")
+                div.card-content
+                    p curriculum division and specialised methodology to work with dancers from beginners to advanced levels.
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/p2.png")
+                div.card-content
+                    p The studio has been successfully hosting online classes and workshops since April 2020. The virtual maintains
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/p4.png")
+
+                div.card-content
+                    p Whether you are launching a new car, introducing new machinery, or simply reminding your customers of brand
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/p3.png")
+                div.card-content
+                    p Stance Dance Studio serves as an advocate for dance and education in the arts within the dance community.
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/p5.png")
+                div.card-content
+                    p Learn to dance from our  Bollywood dance classes taught by world-class dance instructors, and choreographers.
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/p6.png")
+                div.card-content
+                    p Stance Dance Studio serves as an advocate for dance and education in the arts within the dance public.
+    
+
+
+    section.certificate 
+        img(src="/static/img/certificate-banner.webp", alt="")
+    section#sponserSection
+         h2 Our Sponsors
+            div.sponsers
+                img(src= "/static/img/s1.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/s3.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/s5.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/s4.png", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/img/s2.png", alt= "Sponsor Image", class= "spImage")

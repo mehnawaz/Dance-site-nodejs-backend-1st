@@ -1,0 +1,21 @@
+doctype HTML
+html
+  head
+    
+    title The Royal Dance Acadmey
+    block scripts
+      script(src='/static/index.js')
+    block style
+  body 
+    nav#navbar 
+          ul
+            div#logo
+                h1 RDA
+                img(src="/static/img/logo.png")
+                li #[a(href="/") Home]
+                li #[a(href="/service") Services]
+                li #[a(href="/about") About Us]
+                li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer
+        | Copyright © 2023 TheRoyalAcademy.com | All Rights Reserved 

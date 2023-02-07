@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=PT+Serif&display=swap');
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(130, 119, 119);
+    border-radius: 20px;
+    margin: 20px;
+}
+.container{
+    background: center/cover no-repeat url("/static/img/tobias-van-schneider-lHGeqh3XhRY-unsplash.jpg");
+    min-height: 80vh;
+    padding: 20px 0 45px 0;
+
+}
+
+
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border-radius: 120px 25px;
+    outline: none;
+}
+
+.btn{
+    padding: 8px 36px;
+    font-size: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: rgb(255, 254, 254);
+    border-radius: 30px;
+    background:rgb(59, 57, 57);
+    
+}
+.btn:hover{
+    background: #000;
+}
